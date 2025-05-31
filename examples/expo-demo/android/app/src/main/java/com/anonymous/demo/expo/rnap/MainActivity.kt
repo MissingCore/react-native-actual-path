@@ -1,4 +1,4 @@
-package com.anonymous.benchmarking.rnmr
+package com.anonymous.demo.expo.rnap
 
 import android.os.Build
 import android.os.Bundle

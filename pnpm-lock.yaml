@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   '@expo/cli':
-    hash: q5paakjp2bos3wo4wcdxa7wjaq
+    hash: ojiaonc4bggxegjptxskbqdkda
     path: patches/@expo__cli.patch
 
 importers:
@@ -62,7 +62,7 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
-  examples/benchmarking-demo:
+  examples/expo-demo:
     dependencies:
       '@missingcore/react-native-actual-path':
         specifier: workspace:*
@@ -6102,7 +6102,7 @@ snapshots:
 
   '@eslint/js@8.57.1': {}
 
-  '@expo/cli@0.24.13(patch_hash=q5paakjp2bos3wo4wcdxa7wjaq)':
+  '@expo/cli@0.24.13(patch_hash=ojiaonc4bggxegjptxskbqdkda)':
     dependencies:
       '@0no-co/graphql.web': 1.1.2
       '@babel/runtime': 7.27.4
@@ -7976,7 +7976,7 @@ snapshots:
 
   dotenv-expand@11.0.7:
     dependencies:
-      dotenv: 16.4.7
+      dotenv: 16.5.0
 
   dotenv@16.4.7: {}
 
@@ -8428,7 +8428,7 @@ snapshots:
   expo@53.0.9(@babel/core@7.27.4)(react-native@0.79.2(@babel/core@7.27.4)(@types/react@19.1.6)(react@19.0.0))(react@19.0.0):
     dependencies:
       '@babel/runtime': 7.27.4
-      '@expo/cli': 0.24.13(patch_hash=q5paakjp2bos3wo4wcdxa7wjaq)
+      '@expo/cli': 0.24.13(patch_hash=ojiaonc4bggxegjptxskbqdkda)
       '@expo/config': 11.0.10
       '@expo/config-plugins': 10.0.2
       '@expo/fingerprint': 0.12.4

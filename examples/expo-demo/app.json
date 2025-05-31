@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RNMR Benchmarking",
-    "slug": "rnmr-benchmarking",
+    "name": "RNAP Expo Demo",
+    "slug": "rnap-expo-demo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,7 +16,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.benchmarking.rnmr"
+      "package": "com.anonymous.demo.expo.rnap"
     },
     "plugins": [
       [
