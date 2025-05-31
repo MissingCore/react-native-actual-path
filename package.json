@@ -1,6 +1,6 @@
 {
   "name": "@missingcore/react-native-actual-path",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A utility package that attempts to get the actual path from content URIs.",
   "main": "./lib/module/index.js",
   "module": "./lib/module/index.js",
