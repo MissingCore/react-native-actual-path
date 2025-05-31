@@ -42,6 +42,9 @@ public class FileHelper {
 
         if ("primary".equalsIgnoreCase(type)) {
           path = Environment.getExternalStorageDirectory() + "/" + split[1];
+        } else {
+          // An assumption with how the SDCard URI will look like.
+          path = "/storage/" + docId.replace(":", "/");
         }
       } else if (isDownloadsDocument(uri)) { // DownloadsProvider
         final String id = DocumentsContract.getDocumentId(uri);
