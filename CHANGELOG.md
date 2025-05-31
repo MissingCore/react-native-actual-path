@@ -9,7 +9,10 @@ and this project attempts to adhere to [Semantic Versioning](https://semver.org/
 
 ### ⚡ Changes
 
-- 
+- Copied over base code from [`react-native-actual-path`](https://github.com/SolankiYogesh/react-native-real-path).
+- Add old architecture support.
+- Return a more "true" result for SDCard.
+- Add example that displayed the "real path" of the selected directory using the Storage Access Framework (SAF).
 
 ## [0.0.0] - 2025-05-30
 

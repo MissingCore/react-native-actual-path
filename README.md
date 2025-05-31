@@ -5,6 +5,8 @@
 
 A port of [`react-native-actual-path`](https://github.com/SolankiYogesh/react-native-real-path) that supports both the new & old architectures.
 
+Also supports returning paths from the device's SDCard slot (tested using an emulator).
+
 ## Installation
 
 ```sh
