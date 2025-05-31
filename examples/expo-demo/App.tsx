@@ -37,7 +37,9 @@ function App() {
       const dirItem = dirContents[0];
       if (!dirItem) throw new Error('No items found in directory.');
       const resolved = await getActualPath(dirItem);
-      setResolvedUri(resolved.split('/').slice(0, -1).join('/'));
+      setResolvedUri(
+        resolved ? resolved.split('/').slice(0, -1).join('/') : null
+      );
     } catch (err) {
       console.log(err);
       setError(err as Error);
