@@ -77,6 +77,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     gap: 32,
+    paddingHorizontal: 16,
     backgroundColor: '#ffffff',
   },
   button: {
@@ -85,12 +86,10 @@ const styles = StyleSheet.create({
     borderRadius: 16,
   },
   heading: {
-    marginHorizontal: 16,
     textAlign: 'center',
     fontWeight: 'bold',
   },
   text: {
-    marginHorizontal: 16,
     textAlign: 'center',
   },
 });
